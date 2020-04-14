@@ -50,7 +50,7 @@ public class PriorityQueueTest {
             priorityQueue.add(element);
         }
         for (int element: expected) {
-            Assertions.assertEquals(element, priorityQueue.poll());
+            Assertions.assertEquals((Object)element, (Object)priorityQueue.poll());
         }
     }
 
