@@ -1,0 +1,10 @@
+language: Java
+
+jdk: 
+  - openjdk11.0.6
+
+install: 
+  - sudo apt-get -y install junit5
+
+script: 
+  - PriorityQueueTest.java
