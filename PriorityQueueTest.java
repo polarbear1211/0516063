@@ -63,7 +63,7 @@ public class PriorityQueueTest {
                              (Object) new int[]{1, 2, 3}),
 
                 Arguments.of((Object) new int[]{3, 2, 1},
-                             (Object) new int[]{3, 2, 1}),
+                             (Object) new int[]{1, 2, 3}),
 
                 Arguments.of((Object) new int[]{10, -3, 6, 0, -1},
                              (Object) new int[]{-3, -1, 0, 6, 10}),
