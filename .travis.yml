@@ -17,4 +17,5 @@ install:
   - sudo dpkg -i junit5_5.3.2-2_all.deb
 
 script: 
-  - PriorityQueueTest.java
+  - javac PriorityQueueTest.java
+  - java PriorityQueueTest
