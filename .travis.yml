@@ -2,9 +2,6 @@ language: Java
 
 jdk: 
   - openjdk11
-  
-os:
-  - debian
 
 install: 
   - wget http://ftp.br.debian.org/debian/pool/main/a/apiguardian/libapiguardian-java_1.1.0-2_all.deb
