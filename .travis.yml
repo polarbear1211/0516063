@@ -17,4 +17,5 @@ script:
   - mkdir out
   - javac -d out -cp "out:/usr/share/java/*:." PriorityQueueTest.java
   - export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/share/java/"
+  - java -XshowSettings:properties
   - java -jar /usr/share/java/junit-platform-console-standalone-1.3.2.jar --class-path out --scan-class-path
