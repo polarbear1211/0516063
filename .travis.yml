@@ -16,4 +16,5 @@ install:
 script: 
   - mkdir out
   - javac -d out -cp "out:/usr/share/java/*:." PriorityQueueTest.java
-  - java -Djava.library.path=/usr/share/java/ -jar /usr/share/java/junit-platform-console-standalone-1.3.2.jar --class-path out --scan-class-path
+  - export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/share/java/"
+  - java -jar /usr/share/java/junit-platform-console-standalone-1.3.2.jar --class-path out --scan-class-path
