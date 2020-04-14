@@ -4,6 +4,7 @@ jdk:
   - openjdk11
 
 install: 
+  - sudo apt-get update
   - sudo apt-get -y install junit5
 
 script: 
