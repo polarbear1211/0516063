@@ -2,6 +2,9 @@ language: Java
 
 jdk: 
   - openjdk11
+  
+os:
+  - Debian
 
 install: 
   - sudo apt-get update
