@@ -17,5 +17,5 @@ install:
   - sudo dpkg -i junit5_5.3.2-2_all.deb
 
 script: 
-  - javac PriorityQueueTest.java
+  - javac -cp "/usr/share/java/junit-jupiter-api.jar" PriorityQueueTest.java
   - java PriorityQueueTest
